@@ -243,7 +243,7 @@
   let sb=null, attachments=[], prio='Média', session=null, channel=null, tickets=[];
 
   /* ---------- guard: config ---------- */
-  if(!window.SUPABASE_URL || SUPABASE_URL.includes('COLE_AQUI') || SUPABASE_ANON.includes('COLE_AQUI')){
+  if(!window.SUPABASE_URL || SUPABASE_URL.includes('https://tgquiskaehgqkhoukrit.supabase.co') || SUPABASE_ANON.includes('sb_publishable_2zm9F9llm4JR2tLBrQQeCQ_O8krEpy4')){
     $('#root').innerHTML=`<div class="config-warn"><h2>⚠ Falta configurar as chaves</h2>
       <p>Abra este arquivo <code>index.html</code> em um editor de texto e cole sua <code>SUPABASE_URL</code> e <code>SUPABASE_ANON</code> no topo, conforme o guia de instalação. Depois salve e suba de novo.</p></div>`;
     return;
